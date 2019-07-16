@@ -6,7 +6,7 @@
 
 # CONNECT DB
 library(RMySQL)
-con <- dbConnect(dbDriver("MySQL"),user='carvunis',password='mabiche25',dbname='ANNE',host='paris.csb.pitt.edu')  
+con <- dbConnect(dbDriver("MySQL"),user='carvunis',password='xxx',dbname='ANNE',host='paris.csb.pitt.edu')  
 
 general_outdir<-"/Users/annerux/Workspace/cerevisiae/txt/screen_analyses/Protogenes/ProtogeneFitnessFigurePanels/" 
 
