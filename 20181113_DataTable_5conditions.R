@@ -30,7 +30,7 @@
 
 # CONNECT DB
 library(RMySQL)
-con <- dbConnect(dbDriver("MySQL"),user='carvunis',password='mabiche25',dbname='ANNE',host='paris.csb.pitt.edu')  
+con <- dbConnect(dbDriver("MySQL"),user='carvunis',password='#####',dbname='ANNE',host='paris.csb.pitt.edu')  
 
 general_outdir<-"/Users/annerux/Workspace/cerevisiae/txt/screen_analyses/Protogenes/ProtogeneFitnessFigurePanels/submission/" 
 date<-"20190223" # I don't change anything compared to November 2018, just re-run
